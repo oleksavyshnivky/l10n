@@ -28,7 +28,7 @@
 	<div class="collapse navbar-collapse" id="navbarMain">
 		<ul class="navbar-nav mr-auto">
 			<li>
-				<a href="nav-link" href="https://github.com/oleksavyshnivky/l10n/" target="_blank">
+				<a class="nav-link" href="https://github.com/oleksavyshnivky/l10n/" target="_blank">
 					GitHub &gt;&gt;
 				</a>
 			</li>
