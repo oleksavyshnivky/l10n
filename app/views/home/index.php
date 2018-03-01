@@ -312,6 +312,9 @@ class Controller {
 			<a class="nav-item nav-link" id="nav-cvback-tab" data-toggle="tab" href="#nav-cvback" role="tab" aria-controls="nav-cvback" aria-selected="false">
 				[Контролер]
 			</a>
+			<a class="nav-item nav-link" id="nav-cvview2-tab" data-toggle="tab" href="#nav-cvview2" role="tab" aria-controls="nav-cvview2" aria-selected="false">
+				[View]
+			</a>
 			<a class="nav-item nav-link active" id="nav-cvfront-tab" data-toggle="tab" href="#nav-cvfront" role="tab" aria-controls="nav-cvfront" aria-selected="false">
 				[Результат]
 			</a>
@@ -335,13 +338,27 @@ class [...] extends Controller {
 			</pre></code>
 		</div>
 
+		<div class="tab-pane fade" id="nav-cvview2" role="tabpanel" aria-labelledby="nav-cvview2-tab">
+			<code><pre>
+<?=html_escape("<!-- Сторінка до резюме -->\n")?>
+<?=html_escape("<p><?=_('Text from PO-file number 1')?></p>\n")?>
+<?=html_escape("<!-- Резюме -->\n")?>
+<?=html_escape("<p><?=html_escape(\$data['cvtext'])?></p>\n")?>
+<?=html_escape("<!-- Сторінка після резюме -->\n")?>
+<?=html_escape("<p><?=_('Text from PO-file number 2')?></p>\n")?>
+			</pre></code>
+		</div>
+
 		<div class="tab-pane fade show active" id="nav-cvfront" role="tabpanel" aria-labelledby="nav-cvfront-tab">
 			<p><i>
 				[Мова інтерфейсу]: <?=$_SESSION['language']?>;
 				[Мова резюме]: <?=$data['lang']?> (вибрати іншу — вище на закладці "[Вибрати іншу мову, ніж мова інтерфейсу]")
 			</i></p>
+			<!-- Сторінка до резюме -->
 			<p><?=_('Text from PO-file number 1')?></p>
+			<!-- Резюме -->
 			<p><?=html_escape($data['cvtext'])?></p>
+			<!-- Сторінка після резюме -->
 			<p><?=_('Text from PO-file number 2')?></p>
 		</div>
 	</div>

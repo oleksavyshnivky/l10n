@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NTDB\n"
+"POT-Creation-Date: 2018-03-01 11:32+0200\n"
+"PO-Revision-Date: 2018-03-01 12:53+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;gettext;ngettext\n"
+"Last-Translator: \n"
+"Language: ko\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/mysqli.class.php:39
+#, php-format
+msgid "DB connect failed: %s"
+msgstr "결제 실패 : %s"
+
+#: controllers/home.php:30
+msgid "Text from PO-file, used in CV"
+msgstr "포-파일, 이력서에 사용 되는 텍스트"
+
+#: functions/functions.php:76
+msgid "Note"
+msgstr "참고"
+
+#: functions/functions.php:76
+msgid "You must be logged in to see this page."
+msgstr "이 페이지를 보려면 로그인을 해야 합니다."
+
+#: functions/functions.php:81
+msgid "Something went wrong."
+msgstr "문제가 발생했습니다."
+
+#: functions/functions.php:86
+msgid "Error"
+msgstr "错误"
+
+#: views/home/index.php:175
+msgid "My header"
+msgstr "헤더 (Header)"
+
+#: views/home/index.php:176
+msgid "My English text."
+msgstr "내 영어 텍스트입니다."
+
+#: views/home/index.php:177
+msgid "Мій український текст."
+msgstr "내 우크라이나어 텍스트"
+
+#: views/home/index.php:333
+msgid "Text from PO-file number 1"
+msgstr "PO 파일 번호 1에서 텍스트"
+
+#: views/home/index.php:335
+msgid "Text from PO-file number 2"
+msgstr "PO 파일 번호 2의 텍스트"
+
+#: views/templates/index.php:27
+msgid "Toggle navigation"
+msgstr ""

@@ -5,10 +5,15 @@
 
 // Мови сайту
 const SITELANGS = [
-	'uk' => [
-		'name'		=>	'Українська',
-		'locale'	=>	'uk_UA', // putenv
-		'setlocale'	=>	'uk_UA.UTF8',
+	// 'uk' => [
+	// 	'name'		=>	'Українська',
+	// 	'locale'	=>	'uk_UA', // putenv
+	// 	'setlocale'	=>	'uk_UA.UTF8',
+	// ],
+	'ko' => [
+		'name'		=>	'조선말/한국어',
+		'locale'	=>	'ko_KR',
+		'setlocale'	=>	'ko_KR.UTF8',
 	],
 	'en' => [
 		'name'		=>	'English',
@@ -18,14 +23,26 @@ const SITELANGS = [
 ];
 
 // Залежність "Мова браузера" — "Мова сайту"
+// const LANG_REDIRECTION = [
+// 	'uk'		=>	'uk',
+// 	'uk-UA'		=>	'uk',
+// 	'ru'		=>	'uk',
+// 	'ru-RU'		=>	'uk',
+// 	'ru-MO'		=>	'uk',
+// 	'en'		=>	'en',
+// 	'en-GB'		=>	'en',
+// 	'en-US'		=>	'en',
+// 	'default'	=>	'uk',
+// ];
+
 const LANG_REDIRECTION = [
-	'uk'		=>	'uk',
-	'uk-UA'		=>	'uk',
-	'ru'		=>	'uk',
-	'ru-RU'		=>	'uk',
-	'ru-MO'		=>	'uk',
+	'uk'		=>	'ko',
+	'uk-UA'		=>	'ko',
+	'ru'		=>	'ko',
+	'ru-RU'		=>	'ko',
+	'ru-MO'		=>	'ko',
 	'en'		=>	'en',
 	'en-GB'		=>	'en',
 	'en-US'		=>	'en',
-	'default'	=>	'uk',
+	'default'	=>	'ko',
 ];
