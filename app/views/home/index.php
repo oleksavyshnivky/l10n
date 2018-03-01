@@ -326,6 +326,7 @@ class [...] extends Controller {
 		[...]
 		// $lang — мова резюме
 		$this->setLanguage($lang);
+		// $cvtext = renderView([Вигляд резюме], [Дані резюме]);
 		$cvtext = _('Text from PO-file, used in CV') . ': ' . $items[0]['itemname'];
 		$this->setLanguage($_SESSION['language']);
 		[...]
