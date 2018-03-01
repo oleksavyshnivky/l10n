@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pp_v1\n"
+"POT-Creation-Date: 2018-03-01 11:32+0200\n"
+"PO-Revision-Date: 2018-03-01 11:33+0200\n"
+"Last-Translator: Oleksa Vyshnivsky <dying.escape@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: classes/mysqli.class.php:39
+#, php-format
+msgid "DB connect failed: %s"
+msgstr "Підключення до БД провалилося: %s"
+
+#: controllers/home.php:30
+msgid "Text from PO-file, used in CV"
+msgstr "Текст з PO-файлу, використаний у резюме"
+
+#: functions/functions.php:76
+msgid "Note"
+msgstr "Примітка"
+
+#: functions/functions.php:76
+msgid "You must be logged in to see this page."
+msgstr "Потрібно залогінитися, щоб отримати доступ до цієї сторінки."
+
+#: functions/functions.php:81
+msgid "Something went wrong."
+msgstr "Щось пішло не так."
+
+#: functions/functions.php:86
+msgid "Error"
+msgstr "Помилка"
+
+#: views/home/index.php:175
+msgid "My header"
+msgstr "Мій заголовок"
+
+#: views/home/index.php:176
+msgid "My English text."
+msgstr "Мій англійський текст."
+
+#: views/home/index.php:177
+msgid "Мій український текст."
+msgstr "Мій український текст."
+
+#: views/home/index.php:333
+msgid "Text from PO-file number 1"
+msgstr "Текст з PO-файлу номер 1"
+
+#: views/home/index.php:335
+msgid "Text from PO-file number 2"
+msgstr "Текст з PO-файлу номер 2"
+
+#: views/templates/index.php:27
+msgid "Toggle navigation"
+msgstr "Увімкнути/вимкнути навігацію"
